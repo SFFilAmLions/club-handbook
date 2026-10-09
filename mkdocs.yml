@@ -40,6 +40,10 @@ nav:
       - Reimbursements: treasurer/reimbursements.md
       - Quarterly Check Register Review: treasurer/quarterly-review.md
       - Email Templates: treasurer/email-templates.md
+  - Secretary:
+      - Overview: secretary/index.md
+      - Meeting Agendas: secretary/agendas.md
+      - Meeting Minutes: secretary/minutes.md
   - Marketing:
       - Overview: marketing/index.md
       - Website: marketing/website.md
