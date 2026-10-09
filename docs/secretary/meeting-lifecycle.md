@@ -16,6 +16,31 @@ flowchart TD
     H --> I["Email PDF attachment in original thread"]
 ```
 
+## Overlapping agenda and minutes timeline
+
+Each meeting involves **two active working Google Docs**: the current meeting's agenda and the previous meeting's minutes awaiting approval. The current agenda becomes the next set of minutes after the meeting.
+
+The chart uses **illustrative dates** for two consecutive meetings; actual meeting dates and preparation times vary.
+
+```mermaid
+gantt
+    title Overlapping document lifecycles (illustrative)
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+    section Previous meeting document
+    Previous minutes pending approval  :prev, 2026-10-08, 2026-11-04
+    Approve at current meeting         :milestone, 2026-11-04, 0d
+    Email approved PDF attachment      :milestone, 2026-11-05, 0d
+    section Current meeting document
+    Prepare current agenda             :agenda, 2026-10-28, 2026-11-04
+    Current meeting                    :milestone, 2026-11-04, 0d
+    Agenda becomes draft minutes       :draft, 2026-11-05, 2026-12-02
+    Approve at following meeting       :milestone, 2026-12-02, 0d
+    Email approved PDF attachment      :milestone, 2026-12-03, 0d
+```
+
+At the **current meeting**, members approve the *previous* meeting's minutes while using the *current* agenda to conduct business. Afterward, the current agenda is renamed and completed as draft minutes, which are approved at the **following meeting**. Each approved PDF is emailed as an attachment in **its own original meeting thread**, not uploaded to Google Drive. The dates shown for PDF distribution are examples, not deadlines.
+
 ## Suggested timeline
 
 The following is **guidance rather than a set of hard deadlines**. Adapt to meeting changes, holidays, and when materials become available.
