@@ -2,6 +2,20 @@
 
 This procedure connects [agenda preparation](agendas.md), announcements to members, the meeting itself, and [minutes](minutes.md).
 
+## Meeting lifecycle at a glance
+
+```mermaid
+flowchart TD
+    A["Prepare agenda"] --> B["Schedule meeting announcement"]
+    B --> C["Send reminder in same email thread"]
+    C --> D["Hold meeting"]
+    D --> E["Share YouTube recording link in meeting thread"]
+    D --> F["Agenda becomes minutes"]
+    F --> G["Approve minutes at following meeting"]
+    G --> H["Export approved minutes as PDF"]
+    H --> I["Email PDF attachment in original thread"]
+```
+
 ## Suggested timeline
 
 The following is **guidance rather than a set of hard deadlines**. Adapt to meeting changes, holidays, and when materials become available.
@@ -22,7 +36,7 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 Use **SFFilAmLions@googlegroups.com** as the normal recipient for club-wide meeting announcements. This is the mailing list used in past club messages, not an instruction to email each member individually.
 
 1. Open Gmail (or another email client) and start a message addressed to `SFFilAmLions@googlegroups.com`.
-2. Write a subject that clearly identifies the club meeting and **actual date**; for example, `Club Meeting — November 4, 2026` These are illustrative subjects, not a fixed naming convention. **Keep the same subject on replies** so the meeting's conversation remains together.
+2. Write a subject that clearly identifies the club meeting and **actual date**; for example, `Club Meeting — November 4, 2026`. These are illustrative subjects, not a fixed naming convention. **Keep the same subject on replies** so the meeting's conversation remains together.
 3. Confirm the **date, time, physical location, and remote-attendance arrangements** for this specific meeting. Do not assume last month's details are still correct.
 4. Link the upcoming agenda (the working Google Doc that will become the minutes) and the previous meeting's minutes for review directly from Google Drive. Verify that each link opens the intended document and that intended recipients have appropriate access.
 5. Include relevant meeting-specific details, such as potluck arrangements, if confirmed.
