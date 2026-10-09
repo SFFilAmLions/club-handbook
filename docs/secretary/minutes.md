@@ -24,8 +24,8 @@ After approval at the following meeting:
 1. Apply any approved corrections to the Google Doc.
 2. Export or download the **finalized minutes as a PDF**.
 3. Verify that the PDF contains the correct meeting date and final text.
-4. Share the finalized PDF with the club Google Group by replying to the **original meeting's email thread**. If attaching the PDF or linking to it in Drive, make sure members can access it.
-5. Retain the approved PDF and working document with the club's meeting records.
+4. **Attach the finalized PDF directly to an email** sent to the club Google Group by replying to the **original meeting's email thread**. Verify the attachment is the approved version before sending. Do not upload the finalized PDF to Google Drive as part of this procedure.
+5. Keep the working Google Doc with the club's meeting records; the approved PDF is distributed as an email attachment, not uploaded to Google Drive.
 
 See [Meeting Lifecycle and Announcements](meeting-lifecycle.md) for the email thread convention and post-meeting follow-ups.
 
