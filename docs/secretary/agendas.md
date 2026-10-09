@@ -7,15 +7,9 @@
 3. Incorporate confirmed reports and meeting items into the new agenda.
 4. Check the meeting date, time, location, and remote-attendance information before distribution.
 
-## Send the meeting reminder
+## Share the agenda
 
-Around one week before the monthly club meeting, email members a reminder including:
-
-- Meeting date, time, and location.
-- Verified Zoom joining information for online participants.
-- Clickable links to the upcoming agenda and the previous meeting's minutes, stored in Google Drive.
-
-The [Secretary Responsibilities Cheat Sheet](https://docs.google.com/document/d/165qGju1ZPAULRnlNKMzcoTDUj_ZjKSPmxse2m5eU7A0/edit) contains an example reminder email. Treat its meeting location, time, and Zoom details as examples to verify, not permanently fixed values.
+Include a direct link to the agenda in the meeting announcements sent to the club Google Group. See [Meeting Lifecycle and Announcements](meeting-lifecycle.md) for suggested timing, recipients, reminder content, and link checks.
 
 ## Prepare printed copies
 
