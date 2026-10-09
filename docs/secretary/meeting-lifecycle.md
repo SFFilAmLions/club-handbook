@@ -25,6 +25,19 @@ Use **SFFilAmLions@googlegroups.com** as the normal recipient for club-wide meet
 5. Include relevant meeting-specific details, such as potluck arrangements, if confirmed.
 6. Proofread the date (including weekday), time, links, and recipient before sending.
 
+### Schedule reminders in Gmail
+
+**Best practice:** Use Gmail's **Schedule send** feature for the main announcement and the follow-up reminder when the meeting details are known in advance. This helps ensure that reminders are delivered promptly without relying on someone remembering to send them manually.
+
+1. Prepare the announcement or reminder, including the Google Group address, subject, meeting details, and document links.
+2. Review the message for accuracy and verify that linked agenda and minutes documents are ready for members to access.
+3. In Gmail, use the arrow next to **Send** and choose **Schedule send**. Select a suitable delivery date and time based on the meeting schedule.
+4. As a general guide, schedule the main announcement roughly **one week** before the meeting and the follow-up roughly **one day** before. These are flexible targets, not fixed deadlines.
+5. Check Gmail's **Scheduled** folder to confirm both messages are queued and the delivery dates and times are correct.
+6. If the meeting time, venue, Zoom information, or documents change before delivery, review the scheduled messages and cancel or revise them as needed. Do not leave an outdated announcement queued.
+
+Gmail scheduling is recommended, **not mandatory**: send directly when details are confirmed too late to schedule sensibly, or when an urgent correction or cancellation must reach members promptly. Scheduling a message does not replace checking its accuracy or confirming that it was sent.
+
 ### Main announcement: suggested contents
 
 - A clear meeting date, start time, and venue/address.
@@ -70,7 +83,7 @@ The club has previously used the Google Group to announce postponed and cancelle
 - **Changed time, venue, or remote link:** Send a clearly labeled update with the corrected details and updated document links.
 - **Rescheduled meeting:** State both the original date and the new date/time so recipients can distinguish the change.
 - **Cancelled meeting:** Use a prominent subject such as `CANCELLED: Club Meeting — [date]`, and say whether a replacement date is known.
-- When practical, send a correction as soon as the change is confirmed rather than waiting for the next scheduled reminder.
+- When practical, send a correction as soon as the change is confirmed rather than waiting for the next scheduled reminder. Check Gmail's **Scheduled** folder and cancel or revise any pending messages that contain superseded details.
 - Check that any agenda or related meeting materials do not contradict the new announcement.
 
 ## At and after the meeting
