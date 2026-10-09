@@ -6,15 +6,19 @@ This procedure connects [agenda preparation](agendas.md), announcements to membe
 
 ```mermaid
 flowchart TD
-    A["Prepare agenda"] --> B["Schedule meeting announcement"]
-    B --> C["Send reminder in same email thread"]
+    A["Prepare agenda Google Doc"] --> B["✉ Initial announcement<br/>To: Club Google Group<br/>Subject: Club Meeting — date<br/>Agenda + prior minutes links"]
+    B --> C["✉ Reminder (reply all)<br/>Same subject and meeting thread<br/>Confirm time, location, Zoom"]
     C --> D["Hold meeting"]
-    D --> E["Share YouTube recording link in meeting thread"]
-    D --> F["Agenda becomes minutes"]
-    F --> G["Approve minutes at following meeting"]
+    D --> E["✉ Recording follow-up (reply all)<br/>Same meeting thread<br/>YouTube recording link"]
+    D --> F["Agenda becomes draft minutes"]
+    F --> G["Approve minutes at next meeting"]
     G --> H["Export approved minutes as PDF"]
-    H --> I["Email PDF attachment in original thread"]
+    H --> I["✉ Final minutes (reply all)<br/>Original meeting thread<br/>Attach approved PDF"]
+    classDef email fill:#e6f1ff,stroke:#2463a6,stroke-width:2px,color:#15375b
+    class B,C,E,I email
 ```
+
+**Blue envelope boxes represent emails** to the club Google Group. Each meeting has one subject/thread; the reminder, recording link, and approved PDF are replies to that thread. The subject shown is an example, not a required naming format.
 
 ## Overlapping agenda and minutes timeline
 
@@ -30,16 +34,16 @@ gantt
     section Previous meeting document
     Previous minutes pending approval  :prev, 2026-10-08, 2026-11-04
     Approve at current meeting         :milestone, 2026-11-04, 0d
-    Email approved PDF attachment      :milestone, 2026-11-05, 0d
+    ✉ Email PDF in original thread     :crit, milestone, 2026-11-05, 0d
     section Current meeting document
     Prepare current agenda             :agenda, 2026-10-28, 2026-11-04
     Current meeting                    :milestone, 2026-11-04, 0d
     Agenda becomes draft minutes       :draft, 2026-11-05, 2026-12-02
     Approve at following meeting       :milestone, 2026-12-02, 0d
-    Email approved PDF attachment      :milestone, 2026-12-03, 0d
+    ✉ Email PDF in original thread     :crit, milestone, 2026-12-03, 0d
 ```
 
-At the **current meeting**, members approve the *previous* meeting's minutes while using the *current* agenda to conduct business. Afterward, the current agenda is renamed and completed as draft minutes, which are approved at the **following meeting**. Each approved PDF is emailed as an attachment in **its own original meeting thread**, not uploaded to Google Drive. The dates shown for PDF distribution are examples, not deadlines.
+At the **current meeting**, members approve the *previous* meeting's minutes while using the *current* agenda to conduct business. Afterward, the current agenda is renamed and completed as draft minutes, which are approved at the **following meeting**. Each approved PDF is emailed as an attachment in **its own original meeting thread**, not uploaded to Google Drive. The dates shown for PDF distribution are examples, not deadlines. **Red milestones** distinguish outgoing emails in this timeline; see the flowchart above for the example subject and reply-thread details.
 
 ## Suggested timeline
 
