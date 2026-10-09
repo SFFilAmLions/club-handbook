@@ -27,11 +27,6 @@ jobs:
             echo "Public handbook pages must not contain full email addresses."
             exit 1
           fi
-      - name: Reject square-bracket template placeholders
-        shell: bash
-        run: |
-          if grep -RInE --include='*.md' '\\[[A-Za-z][^]]*\\]' docs | grep -vE '\\[[^]]+\\]\\([^)]*\\)'; then
-            echo "Use {Title Case Placeholder} for omitted/template values; reserve square brackets for Markdown links."
-            exit 1
-          fi
+      - name: Validate public documentation placeholders
+        run: python .github/scripts/check_placeholders.py
       - run: mkdocs build --strict
