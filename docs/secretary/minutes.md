@@ -13,7 +13,7 @@ The meeting agenda and minutes are **the same working Google Doc**. During the m
 
 ## Review at the following meeting
 
-The minutes remain **pending approval** until they are reviewed and approved at the following club meeting. Record any corrections agreed during that review and update the working Google Doc accordingly.
+The minutes remain **pending approval** until they are reviewed and approved at the following club meeting. Include their review/approval on that meeting's agenda, and make the working Google Doc available beforehand so members can review it. In the following meeting's own minutes, record the motion, seconder, and outcome of the approval, along with any corrections agreed during that review. Update the earlier meeting's working Google Doc accordingly.
 
 Do not distribute a draft as if it were the final approved minutes.
 
