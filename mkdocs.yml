@@ -42,6 +42,7 @@ nav:
       - Email Templates: treasurer/email-templates.md
   - Secretary:
       - Overview: secretary/index.md
+      - Meeting Lifecycle and Announcements: secretary/meeting-lifecycle.md
       - Meeting Agendas: secretary/agendas.md
       - Meeting Minutes: secretary/minutes.md
   - Marketing:
