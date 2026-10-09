@@ -5,6 +5,7 @@ This handbook contains the club's currently documented operating procedures.
 ## Roles
 
 - [Treasurer](treasurer/index.md) — Zoho Invoice, dues, payments, reimbursements, bank statements, and check-register review.
+- [Secretary](secretary/index.md) — meeting agendas and minutes.
 - [Marketing](marketing/index.md) — club website and YouTube work.
 
 !!! note
