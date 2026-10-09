@@ -1,6 +1,6 @@
 # Treasurer email templates
 
-Use these templates only after the relevant records and attachments have been verified. A draft does not authorize sending. Send from `treasurer@{club domain}` and CC the Treasurer role address.
+Use these templates only after the relevant records and attachments have been verified. A draft does not authorize sending. Send from `{Treasurer Email Address}` and CC the Treasurer role address.
 
 ## Rendering rules
 
@@ -42,7 +42,7 @@ Please review the check-register activity for the stated quarter against the att
 For any questions, please contact:
 
 {Club Treasurer}
-treasurer@{club domain}
+{Treasurer Email Address}
 {Club Treasurer's Phone Number}
 {Club Website}
 ```
@@ -74,7 +74,7 @@ The Club Auditor or Club Secretary may provide approval. If no approval or reque
 For any questions, please contact:
 
 {Club Treasurer}
-treasurer@{club domain}
+{Treasurer Email Address}
 {Club Treasurer's Phone Number}
 {Club Website}
 ```
