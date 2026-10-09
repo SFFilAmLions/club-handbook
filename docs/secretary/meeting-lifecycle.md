@@ -6,7 +6,7 @@ This procedure connects [agenda preparation](agendas.md), announcements to membe
 
 ```mermaid
 flowchart TD
-    A["Prepare agenda Google Doc"] --> B["✉ Initial announcement<br/>To: Club Google Group<br/>Subject: Club Meeting — date<br/>Agenda + prior minutes links"]
+    A["Prepare agenda Google Doc"] --> B["✉ Initial announcement<br/>To: {Club mailing list address}<br/>Subject: Club Meeting — date<br/>Agenda + prior minutes links"]
     B --> C["✉ Reminder (reply all)<br/>Same subject and meeting thread<br/>Confirm time, location, Zoom"]
     C --> D["Hold meeting"]
     D --> E["✉ Recording follow-up (reply all)<br/>Same meeting thread<br/>YouTube recording link"]
@@ -18,7 +18,7 @@ flowchart TD
     class B,C,E,I email
 ```
 
-**Blue envelope boxes represent emails** to the club Google Group. Each meeting has one subject/thread; the reminder, recording link, and approved PDF are replies to that thread. The subject shown is an example, not a required naming format.
+**Blue envelope boxes represent emails** to the {Club mailing list address}. Each meeting has one subject/thread; the reminder, recording link, and approved PDF are replies to that thread. The subject shown is an example, not a required naming format.
 
 ## Overlapping agenda and minutes timeline
 
@@ -52,7 +52,7 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 | When | Action |
 | --- | --- |
 | Before announcements | Prepare the [agenda](agendas.md), request officer and committee reports, and verify meeting arrangements. |
-| Roughly one week before | Send the main announcement to the club Google Group. |
+| Roughly one week before | Send the main announcement to the {Club mailing list address}. |
 | Roughly one day before | Send a brief reminder, repeating access details and highlighting updates. |
 | At the meeting | Bring the agenda and previous minutes; record proceedings and motions. |
 | After the meeting, once available | Reply in the same meeting thread with the YouTube recording link. |
@@ -60,11 +60,11 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 | At the following meeting | Review and approve the previous meeting's minutes, recording any corrections. |
 | After approval | Export the finalized minutes as a PDF and **attach it** to a reply in the original meeting's email thread; do not upload the PDF to Google Drive. |
 
-## Email the club Google Group
+## Email the {Club mailing list address}
 
-Use the **club Google Group** as the normal recipient for club-wide meeting announcements. Obtain the actual mailing address from the club's internal records; **do not publish or reproduce the full address in this public handbook**. This is the mailing list used in past club messages, not an instruction to email each member individually.
+Use the **{Club mailing list address}** as the normal recipient for club-wide meeting announcements. Obtain the actual mailing address from the club's internal records; **do not publish or reproduce the full address in this public handbook**. This is the mailing list used in past club messages, not an instruction to email each member individually.
 
-1. Open Gmail (or another email client) and start a message addressed to the club Google Group.
+1. Open Gmail (or another email client) and start a message addressed to the {Club mailing list address}.
 2. Write a subject that clearly identifies the club meeting and **actual date**; for example, `Club Meeting — November 4, 2026`. These are illustrative subjects, not a fixed naming convention. **Keep the same subject on replies** so the meeting's conversation remains together.
 3. Confirm the **date, time, physical location, and remote-attendance arrangements** for this specific meeting. Do not assume last month's details are still correct.
 4. Link the upcoming agenda (the working Google Doc that will become the minutes) and the previous meeting's minutes for review directly from Google Drive. Verify that each link opens the intended document and that intended recipients have appropriate access.
@@ -73,7 +73,7 @@ Use the **club Google Group** as the normal recipient for club-wide meeting anno
 
 ### Keep one email thread per meeting
 
-**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, post-meeting YouTube recording link, approved minutes PDF, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the club Google Group in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
+**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, post-meeting YouTube recording link, approved minutes PDF, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the {Club mailing list address} in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
 
 Gmail generally keeps scheduled replies in their original conversation. However, **the initial announcement must be sent before a reply can be prepared against it**. Consequently, you cannot reliably schedule the initial message and its threaded follow-up as two independent new emails in advance and assume Gmail will join them later. If the original message has not been sent yet, schedule it first, then return after delivery to schedule a reply in that thread. Verify the recipient and conversation when preparing a scheduled reply.
 
@@ -101,7 +101,7 @@ Gmail scheduling is recommended, **not mandatory**: send directly when details a
 **Example outline** (replace all bracketed fields):
 
 ```text
-To: [club Google Group]
+To: [{Club mailing list address}]
 Subject: SF Fil-Am Lions Club Meeting — [weekday, date]
 
 Fellow Lions,
