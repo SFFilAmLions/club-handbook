@@ -62,9 +62,9 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 
 ## Email the club Google Group
 
-Use **SFFilAmLions@googlegroups.com** as the normal recipient for club-wide meeting announcements. This is the mailing list used in past club messages, not an instruction to email each member individually.
+Use the **club Google Group** as the normal recipient for club-wide meeting announcements. Obtain the actual mailing address from the club's internal records; **do not publish or reproduce the full address in this public handbook**. This is the mailing list used in past club messages, not an instruction to email each member individually.
 
-1. Open Gmail (or another email client) and start a message addressed to `SFFilAmLions@googlegroups.com`.
+1. Open Gmail (or another email client) and start a message addressed to the club Google Group.
 2. Write a subject that clearly identifies the club meeting and **actual date**; for example, `Club Meeting — November 4, 2026`. These are illustrative subjects, not a fixed naming convention. **Keep the same subject on replies** so the meeting's conversation remains together.
 3. Confirm the **date, time, physical location, and remote-attendance arrangements** for this specific meeting. Do not assume last month's details are still correct.
 4. Link the upcoming agenda (the working Google Doc that will become the minutes) and the previous meeting's minutes for review directly from Google Drive. Verify that each link opens the intended document and that intended recipients have appropriate access.
@@ -101,7 +101,7 @@ Gmail scheduling is recommended, **not mandatory**: send directly when details a
 **Example outline** (replace all bracketed fields):
 
 ```text
-To: SFFilAmLions@googlegroups.com
+To: [club Google Group]
 Subject: SF Fil-Am Lions Club Meeting — [weekday, date]
 
 Fellow Lions,
