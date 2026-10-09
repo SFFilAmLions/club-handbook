@@ -12,7 +12,8 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 | Roughly one week before | Send the main announcement to the club Google Group. |
 | Roughly one day before | Send a brief reminder, repeating access details and highlighting updates. |
 | At the meeting | Bring the agenda and previous minutes; record proceedings and motions. |
-| After the meeting | Prepare [minutes](minutes.md), retain meeting records, and follow the club's review process once confirmed. |
+| After the meeting, once available | Reply in the same meeting thread with the YouTube recording link. |
+| After minutes are prepared | Share the [minutes](minutes.md) in that thread, clearly indicating whether they are draft or approved, and retain them with meeting records. |
 
 ## Email the club Google Group
 
@@ -27,7 +28,7 @@ Use **SFFilAmLions@googlegroups.com** as the normal recipient for club-wide meet
 
 ### Keep one email thread per meeting
 
-**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the club Google Group in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
+**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, post-meeting YouTube recording link, minutes, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the club Google Group in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
 
 Gmail generally keeps scheduled replies in their original conversation. However, **the initial announcement must be sent before a reply can be prepared against it**. Consequently, you cannot reliably schedule the initial message and its threaded follow-up as two independent new emails in advance and assume Gmail will join them later. If the original message has not been sent yet, schedule it first, then return after delivery to schedule a reply in that thread. Verify the recipient and conversation when preparing a scheduled reply.
 
@@ -94,11 +95,21 @@ The club has previously used the Google Group to announce postponed and cancelle
 
 ## At and after the meeting
 
-Follow [Meeting Minutes](minutes.md) to record reports, motions, seconders, and outcomes. Retain the minutes with club meeting records so the document can be linked in a later announcement.
+Follow [Meeting Minutes](minutes.md) to record reports, motions, seconders, and outcomes.
+
+### Share the meeting recording
+
+Once the meeting recording is uploaded to YouTube and the link is ready, **Reply all** in that meeting's existing Google Group email thread with the recording link. Coordinate with whoever publishes the recording; see [Marketing: YouTube Meeting Recordings](../marketing/youtube.md). Verify that the link opens the correct meeting recording and that members can access it before sending. No fixed turnaround time is prescribed; share it promptly once available.
+
+### Share the minutes
+
+After preparing the [meeting minutes](minutes.md), **Reply all** in the same meeting thread with a direct link to the minutes in Google Drive. Label the minutes **draft / pending approval** when applicable; do not imply approval before the club has approved them. Check that the link and access permissions are correct. Retain the minutes with club meeting records so they can also be linked in the next meeting's announcement.
+
+The intended sequence is **recording first, then minutes**, subject to availability. Both follow-ups belong to the meeting's existing email conversation, not a new thread.
 
 !!! note "To confirm with the club"
 
-    The formal review, correction, and approval process for minutes is not yet documented. Do not assume draft minutes are approved merely because they have been shared.
+    The formal review, correction, and approval process for minutes is not yet documented. Do not assume draft minutes are approved merely because they have been shared. Confirm whether any review is required before distributing drafts.
 
 ## Sources and examples
 
