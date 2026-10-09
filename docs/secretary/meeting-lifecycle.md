@@ -13,7 +13,9 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 | Roughly one day before | Send a brief reminder, repeating access details and highlighting updates. |
 | At the meeting | Bring the agenda and previous minutes; record proceedings and motions. |
 | After the meeting, once available | Reply in the same meeting thread with the YouTube recording link. |
-| After minutes are prepared | Share the [minutes](minutes.md) in that thread, clearly indicating whether they are draft or approved, and retain them with meeting records. |
+| After the meeting | Convert the working agenda Google Doc into draft minutes for approval at the next meeting. |
+| At the following meeting | Review and approve the previous meeting's minutes, recording any corrections. |
+| After approval | Export the finalized minutes as a PDF and reply in the **original meeting's email thread** with the PDF. |
 
 ## Email the club Google Group
 
@@ -22,13 +24,13 @@ Use **SFFilAmLions@googlegroups.com** as the normal recipient for club-wide meet
 1. Open Gmail (or another email client) and start a message addressed to `SFFilAmLions@googlegroups.com`.
 2. Write a subject that clearly identifies the club meeting and **actual date**; for example, `Club Meeting — November 4, 2026` These are illustrative subjects, not a fixed naming convention. **Keep the same subject on replies** so the meeting's conversation remains together.
 3. Confirm the **date, time, physical location, and remote-attendance arrangements** for this specific meeting. Do not assume last month's details are still correct.
-4. Link the upcoming agenda and previous meeting's minutes directly from Google Drive. Verify that each link opens the intended document and that intended recipients have appropriate access.
+4. Link the upcoming agenda (the working Google Doc that will become the minutes) and the previous meeting's minutes for review directly from Google Drive. Verify that each link opens the intended document and that intended recipients have appropriate access.
 5. Include relevant meeting-specific details, such as potluck arrangements, if confirmed.
 6. Proofread the date (including weekday), time, links, and recipient before sending.
 
 ### Keep one email thread per meeting
 
-**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, post-meeting YouTube recording link, minutes, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the club Google Group in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
+**Use a single Google Group conversation for each meeting.** Start the thread with the main announcement. Send the follow-up reminder, updated agenda links, Zoom details, post-meeting YouTube recording link, approved minutes PDF, and other meeting-specific follow-ups by **Reply all** to that original message, keeping the club Google Group in the recipients. Do not compose a new message for routine follow-ups, and do not change the subject just to say “Reminder.” Start a new thread for the next meeting.
 
 Gmail generally keeps scheduled replies in their original conversation. However, **the initial announcement must be sent before a reply can be prepared against it**. Consequently, you cannot reliably schedule the initial message and its threaded follow-up as two independent new emails in advance and assume Gmail will join them later. If the original message has not been sent yet, schedule it first, then return after delivery to schedule a reply in that thread. Verify the recipient and conversation when preparing a scheduled reply.
 
@@ -50,7 +52,7 @@ Gmail scheduling is recommended, **not mandatory**: send directly when details a
 - A clear meeting date, start time, and venue/address.
 - The current Zoom joining link or other remote-attendance instructions, **if applicable and verified**.
 - A clickable link to the [agenda](agendas.md).
-- A clickable link to the previous meeting's [minutes](minutes.md).
+- A clickable link to the previous meeting's [minutes](minutes.md) for review and approval, if still pending.
 - Other confirmed instructions, such as potluck details.
 
 **Example outline** (replace all bracketed fields):
@@ -67,7 +69,7 @@ Remote attendance: [verified Zoom link/details, if applicable]
 
 Meeting materials:
 Agenda: [Google Drive link]
-Previous meeting minutes: [Google Drive link]
+Previous meeting minutes for review: [Google Drive link]
 
 [Other confirmed meeting details]
 
@@ -79,7 +81,7 @@ The club's [Secretary Responsibilities Cheat Sheet](https://docs.google.com/docu
 
 ### Follow-up reminder
 
-A short follow-up **around the day before** is a useful default. **Reply all in the existing meeting thread**, rather than composing a new email. Repeat the meeting date, time, location, remote-attendance information, and agenda link. Call out anything that changed since the initial announcement. Include the previous minutes link when helpful.
+A short follow-up **around the day before** is a useful default. **Reply all in the existing meeting thread**, rather than composing a new email. Repeat the meeting date, time, location, remote-attendance information, and agenda link. Call out anything that changed since the initial announcement. Include the previous meeting's minutes link for review when relevant.
 
 There is no need to force two messages on exact days. For example, if the first announcement goes out very close to the meeting, avoid sending a redundant reminder immediately afterward.
 
@@ -95,21 +97,21 @@ The club has previously used the Google Group to announce postponed and cancelle
 
 ## At and after the meeting
 
-Follow [Meeting Minutes](minutes.md) to record reports, motions, seconders, and outcomes.
+The **agenda Google Doc becomes the minutes**: take notes in the agenda during the meeting, complete the record afterward, and rename that same document as the minutes. See [Meeting Minutes](minutes.md) for details.
 
 ### Share the meeting recording
 
-Once the meeting recording is uploaded to YouTube and the link is ready, **Reply all** in that meeting's existing Google Group email thread with the recording link. Coordinate with whoever publishes the recording; see [Marketing: YouTube Meeting Recordings](../marketing/youtube.md). Verify that the link opens the correct meeting recording and that members can access it before sending. No fixed turnaround time is prescribed; share it promptly once available.
+Once the meeting recording is uploaded to YouTube and the link is ready, **Reply all** in that meeting's existing Google Group email thread with the recording link. Coordinate with whoever publishes the recording; see [Marketing: YouTube Meeting Recordings](../marketing/youtube.md). Verify that the link opens the correct recording and members can access it. Share it promptly once available; no exact turnaround time is required.
 
-### Share the minutes
+### Approve minutes at the following meeting
 
-After preparing the [meeting minutes](minutes.md), **Reply all** in the same meeting thread with a direct link to the minutes in Google Drive. Label the minutes **draft / pending approval** when applicable; do not imply approval before the club has approved them. Check that the link and access permissions are correct. Retain the minutes with club meeting records so they can also be linked in the next meeting's announcement.
+At the **next club meeting**, the previous meeting's minutes are reviewed and approved. Record any agreed corrections and update the working Google Doc. Until then, the minutes are **pending approval**, not final.
 
-The intended sequence is **recording first, then minutes**, subject to availability. Both follow-ups belong to the meeting's existing email conversation, not a new thread.
+### Send the approved minutes PDF
 
-!!! note "To confirm with the club"
+**Only after approval**, export the finalized Google Doc as a **PDF** and verify its contents. Then **Reply all to the original meeting's Google Group email thread** with the approved PDF attached or an accessible link to the PDF. Retain the approved PDF and the working document with the club's records.
 
-    The formal review, correction, and approval process for minutes is not yet documented. Do not assume draft minutes are approved merely because they have been shared. Confirm whether any review is required before distributing drafts.
+This means the original meeting's thread may receive its final follow-up **after the following meeting**. The recording link is normally shared earlier, once available. Do not send a draft minutes document as the final minutes.
 
 ## Sources and examples
 
