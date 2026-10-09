@@ -1,0 +1,46 @@
+site_name: San Francisco Fil-Am Lions Club Handbook
+site_description: Operating procedures for the San Francisco Fil-Am Lions Club
+repo_name: SFFilAmLions/club-handbook
+repo_url: https://github.com/SFFilAmLions/club-handbook
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: red
+      accent: amber
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Treasurer:
+      - Overview: treasurer/index.md
+      - Operating Controls: treasurer/operations.md
+      - Invoices and Dues Reports: treasurer/invoices-and-dues.md
+      - Payments and Forwarding: treasurer/payments-and-forwarding.md
+      - Reimbursements: treasurer/reimbursements.md
+      - Quarterly Check Register Review: treasurer/quarterly-review.md
+      - Email Templates: treasurer/email-templates.md
+  - Marketing:
+      - Overview: marketing/index.md
+      - Website: marketing/website.md
+      - YouTube Meeting Recordings: marketing/youtube.md
