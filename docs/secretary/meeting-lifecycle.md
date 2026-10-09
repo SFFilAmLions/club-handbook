@@ -15,7 +15,7 @@ The following is **guidance rather than a set of hard deadlines**. Adapt to meet
 | After the meeting, once available | Reply in the same meeting thread with the YouTube recording link. |
 | After the meeting | Convert the working agenda Google Doc into draft minutes for approval at the next meeting. |
 | At the following meeting | Review and approve the previous meeting's minutes, recording any corrections. |
-| After approval | Export the finalized minutes as a PDF and reply in the **original meeting's email thread** with the PDF. |
+| After approval | Export the finalized minutes as a PDF and **attach it** to a reply in the original meeting's email thread; do not upload the PDF to Google Drive. |
 
 ## Email the club Google Group
 
@@ -109,7 +109,7 @@ At the **next club meeting**, the previous meeting's minutes are reviewed and ap
 
 ### Send the approved minutes PDF
 
-**Only after approval**, export the finalized Google Doc as a **PDF** and verify its contents. Then **Reply all to the original meeting's Google Group email thread** with the approved PDF attached or an accessible link to the PDF. Retain the approved PDF and the working document with the club's records.
+**Only after approval**, export the finalized Google Doc as a **PDF** and verify its contents. Then **Reply all to the original meeting's Google Group email thread**, **attach the approved PDF directly**, and confirm the correct attachment is included before sending. **Do not upload the finalized PDF to Google Drive**; the working Google Doc remains in the club's meeting records.
 
 This means the original meeting's thread may receive its final follow-up **after the following meeting**. The recording link is normally shared earlier, once available. Do not send a draft minutes document as the final minutes.
 
