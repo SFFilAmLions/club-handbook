@@ -20,4 +20,11 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs-material
+      - name: Reject published email addresses
+        shell: bash
+        run: |
+          if grep -RInE --include='*.md' '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' docs; then
+            echo "Public handbook pages must not contain full email addresses."
+            exit 1
+          fi
       - run: mkdocs build --strict
