@@ -1,5 +1,27 @@
 # Payments and forwarding
 
+
+## Electronic payment forwarding lifecycle
+
+This overview shows how an incoming electronic payment (including Zelle) moves from source reconciliation to the club's forwarding check. **A draft allocation is not a forwarding payment**, and no funds are forwarded without approval of the exact payment preview.
+
+```mermaid
+flowchart TD
+    A["Incoming electronic payment<br/>Record source details"] --> B["Match memo recipients to approved invoices"]
+    B --> C{"Allocations reconcile<br/>to source amount?"}
+    C -->|No| D["Hold unresolved portion<br/>Only process separately complete batches"]
+    C -->|Yes| E["Create and verify Zoho draft payments<br/>Record assigned IDs and internal references"]
+    E --> F["Prepare forwarding preview<br/>One payment per complete source group"]
+    F --> G["Obtain explicit approval<br/>for exact amount, memo, account and date"]
+    G --> H["Schedule Bill Pay forwarding check<br/>to club checking"]
+    H --> I["Verify schedule and record delivery date"]
+    I --> J{"Final check reference available?"}
+    J -->|No| K["Keep final reference blank<br/>Recheck when available"]
+    K --> J
+    J -->|Yes| L["Update check register<br/>Preserve Zoho IDs and allocation suffixes"]
+    L --> M["Reconcile source, drafts and forwarding check"]
+```
+
 ## Reconcile an electronic payment
 
 1. Read the `{Lions Payments}` source row: date, status, sender, memo, amount, confirmation, and destination.
