@@ -2,6 +2,7 @@ site_name: San Francisco Fil-Am Lions Club Handbook
 site_description: Operating procedures for the San Francisco Fil-Am Lions Club
 repo_name: SFFilAmLions/club-handbook
 repo_url: https://github.com/SFFilAmLions/club-handbook
+edit_uri: edit/main/docs/
 
 theme:
   name: material
