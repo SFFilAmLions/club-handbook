@@ -41,6 +41,7 @@ markdown_extensions:
 
 nav:
   - Home: README.md
+  - Change History: CHANGELOG.md
   - Treasurer:
       - Overview: treasurer/index.md
       - Operating Controls: treasurer/operations.md
