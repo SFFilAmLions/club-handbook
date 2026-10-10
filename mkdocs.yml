@@ -42,6 +42,10 @@ markdown_extensions:
 nav:
   - Home: README.md
   - Change History: CHANGELOG.md
+  - President:
+      - Overview: president/index.md
+      - Club Meeting Script: president/club-meeting-procedure.md
+      - Meeting Guidance: president/meeting-guidance.md
   - Treasurer:
       - Overview: treasurer/index.md
       - Operating Controls: treasurer/operations.md
