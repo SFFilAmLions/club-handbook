@@ -24,13 +24,15 @@
 4. Obtain explicit action-time approval for the exact preview.
 5. Use `{Club Treasurer's Personal Account for Electronic Payments}` only as the approved intermediary for electronic payments. Schedule the Bill Pay forwarding check to the club using the approved funding account and memo.
 6. Verify the scheduled payment's amount, memo, funding account, check-delivery method, and estimated delivery date.
-7. Record the final check reference only when available. Retain both the accounting-system payment identifier and final forwarding reference in `{Check Register}`.
+7. Record the final check reference only when available. For a forwarded electronic-payment check, use `Z#<check number>` and append `-X/X` only when that one check is allocated across multiple member payments. Retain both the accounting-system payment identifier and final forwarding reference in `{Check Register}`. Record a direct check to the club with its plain check number; do not use the forwarding prefix.
 
 ## Reconcile after scheduling
 
 1. Record the confirmed delivery date for each in-scope source record.
-2. Leave the final check-reference field blank until the provider supplies it.
-3. Re-read the edited records and verify that excluded or unallocated rows remain unchanged.
-4. Once the final reference is available, replace only the pending forwarding reference while preserving allocation suffixes and accounting-system identifiers.
-5. Verify final register entries against the source payment, forwarding check, and Zoho drafts.
-
+2. Leave the final check-reference field blank until the provider supplies it. A scheduled or estimated delivery date is not a final check reference.
+3. After the provider's delivery date, retrieve the completed Bill Pay record and verify its payee, amount, memo, delivery date, delivery method, and check number.
+4. Match the completed forwarding check to exactly one source-payment group using the verified amount and memo. Do not assign a check number from sequence, timing, or another payment's confirmation.
+5. Replace only that group's pending forwarding reference in each related Zoho payment and `{Check Register}` row. Use `Z#<check number>` for a forwarded electronic-payment check; preserve an `-X/X` allocation suffix only for a multi-payment check. Use the plain check number for a direct check to the club. Preserve accounting-system payment identifiers.
+6. Re-read the edited records and verify that excluded or unallocated rows remain unchanged.
+7. Record each completed accounting-system change in the current-year action log, including the payment identifier, final check reference, and verification result.
+8. Verify final register entries against the source payment, forwarding check, and Zoho payment records.

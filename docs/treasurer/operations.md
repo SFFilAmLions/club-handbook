@@ -53,7 +53,7 @@ Electronic member payment
 3. Prepare a reviewable preview showing source group, amount, memo, `{Club Checking Account}`, and proposed delivery date.
 4. Obtain explicit action-time approval for the exact batch before scheduling it.
 5. Verify each scheduled Bill Pay item against the approved amount, memo, funding account, payment method, and delivery date.
-6. Record the final check reference only when it is available; preserve the accounting-system payment identifier and reconcile the final register entries against the source record and forwarding payment.
+6. After the provider's delivery date, verify the completed Bill Pay record's payee, amount, memo, delivery date, delivery method, and check number. Match it to one source-payment group by the verified amount and memo, then replace only that group's pending reference in the accounting-system payment and check-register records. Use `Z#<check number>` for a forwarded electronic-payment check and add `-X/X` only for a multi-payment allocation; record a direct club check with its plain number. Preserve payment identifiers, record the completed changes in the current-year action log, and reconcile the final register entries against the source record and forwarding payment.
 
 ## Dues summary reports and email drafts
 
