@@ -2,6 +2,27 @@
 
 Use a Zoho credit note when the club owes a reimbursable amount to a member or officer. A credit note records the obligation; it does not itself make a payment, apply a credit to an invoice, or confirm reimbursement.
 
+
+## Reimbursement lifecycle at a glance
+
+The credit note documents an obligation, **not a completed reimbursement**. Sending a credit note, sending a review request, applying credit, and paying a reimbursement are separate actions requiring their own authorization.
+
+```mermaid
+flowchart TD
+    A["Collect invoices, receipts and payment evidence"] --> B["Identify distinct payments<br/>Exclude duplicate evidence"]
+    B --> C{"Payer, purpose and total<br/>fully reconciled?"}
+    C -->|No| D["Resolve missing or conflicting evidence<br/>Do not create or pay reimbursement"]
+    C -->|Yes| E["Confirm existing Zoho customer<br/>and reimbursable categories"]
+    E --> F["Create credit note<br/>One line per distinct category or issuer"]
+    F --> G["Verify credit note ID, total<br/>and Open status"]
+    G --> H["Record action log and evidence"]
+    H --> I["Prepare open credit notes for review<br/>Match receipt bundle to each line"]
+    I --> J["Send credit note via Zoho<br/>only when separately authorized"]
+    J --> K["Draft review-request reply<br/>Attach credit note and verified receipts"]
+    K --> L["Verify recipients, attachments<br/>and Draft status"]
+    L --> M["Await separate authorization<br/>Do not send draft or pay"]
+```
+
 ## Reconcile reimbursement evidence
 
 1. Inspect each source document before changing Zoho. Record the issuer, document number when available, relevant dates, amount, payer, and purpose.
