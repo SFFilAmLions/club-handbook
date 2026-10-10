@@ -6,6 +6,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,6 +19,9 @@ theme:
     - scheme: default
       primary: red
       accent: amber
+
+extra:
+  handbook_version: !ENV [HANDBOOK_VERSION, '1.0.0']
 
 plugins:
   - search
