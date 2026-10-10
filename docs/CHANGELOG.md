@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/SFFilAmLions/club-handbook/compare/v1.1.0...v1.1.1) (2026-10-10)
+
+
+### Documentation
+
+* add President club-meeting-procedure.md ([259a7a8](https://github.com/SFFilAmLions/club-handbook/commit/259a7a8fdbc5cdda12c9d173e5827a5b73df8306))
+* add President index.md ([3fca294](https://github.com/SFFilAmLions/club-handbook/commit/3fca2943174a2e393608dc37bc902a0e8b7c3805))
+* add President meeting procedure and presiding script ([3416290](https://github.com/SFFilAmLions/club-handbook/commit/3416290f28337683c1df8e068fa03da459a89e65))
+* add President meeting-guidance.md ([f035fa4](https://github.com/SFFilAmLions/club-handbook/commit/f035fa4b82205c165cb918ceb069e512ec133699))
+* add President role and meeting pages to navigation ([e2f8594](https://github.com/SFFilAmLions/club-handbook/commit/e2f859478867d459ac45191197e4f98397420f1b))
+* list President role on handbook homepage ([c4b45c9](https://github.com/SFFilAmLions/club-handbook/commit/c4b45c91eaf9512053022c314c537b2a30cac170))
+
 ## [1.1.0](https://github.com/SFFilAmLions/club-handbook/compare/v1.0.0...v1.1.0) (2026-10-10)
 
 
