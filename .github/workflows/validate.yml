@@ -29,4 +29,7 @@ jobs:
           fi
       - name: Validate public documentation placeholders
         run: python .github/scripts/check_placeholders.py
+      - name: Read handbook version
+        run: |
+          echo "HANDBOOK_VERSION=$(python -c 'import json; print(json.load(open(".release-please-manifest.json"))["."])')" >> "$GITHUB_ENV"
       - run: mkdocs build --strict
