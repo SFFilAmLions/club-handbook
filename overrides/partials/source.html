@@ -1,20 +1,34 @@
-{# Keep the repository source widget and its GitHub statistics behavior. #}
-<a href="{{ config.repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
-    {% include ".icons/" ~ icon ~ ".svg" %}
-  </div>
-  <span class="md-source__version" aria-label="Handbook version {{ config.extra.handbook_version }}">v{{ config.extra.handbook_version }}</span>
-  <div class="md-source__repository">
-    {{ config.repo_name }}
-  </div>
-</a>
+{# Link the handbook version to the published release history while retaining GitHub source metadata. #}
+<div class="md-source-group">
+  <a class="md-source__version" href="{{ 'CHANGELOG.md' | url }}" aria-label="View handbook change history for version {{ config.extra.handbook_version }}">
+    v{{ config.extra.handbook_version }}
+  </a>
+  <a href="{{ config.repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
+    <div class="md-source__icon md-icon">
+      {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </div>
+    <div class="md-source__repository">
+      {{ config.repo_name }}
+    </div>
+  </a>
+</div>
 <style>
+  .md-source-group {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
   .md-source__version {
     flex-shrink: 0;
     margin: 0 .4rem;
+    color: inherit;
     font-size: .65rem;
     font-weight: 700;
+    text-decoration: none;
     white-space: nowrap;
+  }
+  .md-source__version:hover {
+    text-decoration: underline;
   }
 </style>
