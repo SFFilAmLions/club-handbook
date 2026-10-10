@@ -1,0 +1,53 @@
+# Pages CMS editing pilot for the MkDocs handbook.
+# Pages CMS only edits repository files; MkDocs Material remains the renderer.
+media:
+  input: docs/assets
+  output: /assets
+
+content:
+  - name: home
+    label: Handbook home page
+    type: file
+    path: docs/README.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: body
+        label: Home page content
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+
+  # MkDocs-specific extensions (Mermaid, admonitions, tabs) should be edited
+  # using source mode to avoid WYSIWYG normalization of their syntax.
+  - name: treasurer
+    label: Treasurer procedures (source)
+    type: collection
+    path: docs/treasurer
+    format: raw
+    operations:
+      create: false
+      rename: false
+      delete: false
+
+  - name: secretary
+    label: Secretary procedures (source)
+    type: collection
+    path: docs/secretary
+    format: raw
+    operations:
+      create: false
+      rename: false
+      delete: false
+
+  - name: marketing
+    label: Marketing procedures (source)
+    type: collection
+    path: docs/marketing
+    format: raw
+    operations:
+      create: false
+      rename: false
+      delete: false
