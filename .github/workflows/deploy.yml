@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs-material
+      - name: Read handbook version
+        run: |
+          echo "HANDBOOK_VERSION=$(python -c 'import json; print(json.load(open(".release-please-manifest.json"))["."])')" >> "$GITHUB_ENV"
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:

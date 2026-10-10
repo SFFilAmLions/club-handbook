@@ -2,9 +2,11 @@ site_name: San Francisco Fil-Am Lions Club Handbook
 site_description: Operating procedures for the San Francisco Fil-Am Lions Club
 repo_name: SFFilAmLions/club-handbook
 repo_url: https://github.com/SFFilAmLions/club-handbook
+edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,6 +19,9 @@ theme:
     - scheme: default
       primary: red
       accent: amber
+
+extra:
+  handbook_version: !ENV [HANDBOOK_VERSION, '1.0.0']
 
 plugins:
   - search
