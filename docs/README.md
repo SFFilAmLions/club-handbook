@@ -19,3 +19,9 @@ The handbook is also designed to be used by AI assistants as a reference for sup
 The handbook provides procedural guidance; its contents do not independently authorize AI systems to act on behalf of the club.
 
 > **Note:** This is an internal handbook. The [GitHub repository](https://github.com/SFFilAmLions/club-handbook) is the source of truth; [GitHub Pages](https://handbook.sffilamlions.org/) renders the same Markdown for reading.
+
+## Change History and releases
+
+The [Change History](CHANGELOG.md) summarizes changes included in each published handbook release. For an exact record of individual edits, see the [commits on GitHub](https://github.com/SFFilAmLions/club-handbook/commits/main/).
+
+The handbook site deploys after pushes to `main`. Separately, Release Please checks those pushes for releasable Conventional Commits and proposes a release pull request. A release is published only after its release PR is merged; not every website deployment creates a new version. Use `feat:` for substantial new capabilities and `fix:` for corrections that should trigger a release. Routine `docs:` edits appear in release notes when included with a releasable change, but do not normally trigger a release themselves with the `simple` release strategy. Human review remains required for publishing a release.
