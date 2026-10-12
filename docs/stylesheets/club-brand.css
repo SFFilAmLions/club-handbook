@@ -1,0 +1,96 @@
+/* San Francisco Fil-Am Lions Club design tokens.
+   Aligned with serve-with/src/theme.ts and club publication guidelines. */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@400;500;700&family=Ubuntu+Condensed&display=swap');
+
+:root {
+  --club-gold: #F1C232;
+  --club-ink: #23251F;
+  --club-muted: #51564C;
+  --club-canvas: #FCFBF6;
+  --club-surface: #FFFFFF;
+  --club-line: #DDE0D6;
+  --club-action: #735600;
+  --md-text-font: "Alata";
+  --md-primary-fg-color: #735600;
+  --md-primary-fg-color--light: #94731E;
+  --md-primary-fg-color--dark: #553F00;
+  --md-accent-fg-color: #735600;
+  --md-default-bg-color: var(--club-canvas);
+  --md-default-fg-color: var(--club-ink);
+  --md-default-fg-color--light: var(--club-muted);
+  --md-typeset-a-color: var(--club-action);
+}
+
+[data-md-color-scheme="slate"] {
+  --club-ink: #F2F0E8;
+  --club-muted: #CDCABF;
+  --club-canvas: #141613;
+  --club-surface: #20231E;
+  --club-line: #484D43;
+  --club-action: #F1C232;
+  --md-primary-fg-color: #25200B;
+  --md-primary-fg-color--light: #48402A;
+  --md-primary-fg-color--dark: #141613;
+  --md-accent-fg-color: var(--club-gold);
+  --md-default-bg-color: var(--club-canvas);
+  --md-default-fg-color: var(--club-ink);
+  --md-default-fg-color--light: var(--club-muted);
+  --md-typeset-a-color: var(--club-gold);
+}
+
+body, button, input, .md-typeset, .md-nav {
+  font-family: "Alata", system-ui, sans-serif;
+}
+.md-header__title, .md-header__topic, .md-typeset h1,
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-family: "Ubuntu", system-ui, sans-serif;
+}
+.md-header__topic, .md-header__title, .md-typeset h1,
+.md-typeset h2, .md-typeset h3 { font-weight: 700; }
+.md-typeset h5, .md-typeset h6, .md-nav__title,
+.md-tabs__link, .md-typeset .admonition-title {
+  font-family: "Ubuntu Condensed", "Ubuntu", sans-serif;
+}
+.md-header, .md-tabs {
+  background: var(--club-surface);
+  color: var(--club-ink);
+  border-bottom: 1px solid var(--club-line);
+}
+.md-header { box-shadow: 0 1px 5px #00000012; }
+.md-header__button, .md-header__title, .md-tabs__link { color: inherit; }
+.md-header__button:hover, .md-tabs__link:hover,
+.md-tabs__item--active .md-tabs__link { color: var(--club-action); }
+.md-tabs__item--active .md-tabs__link { border-bottom: 3px solid var(--club-gold); }
+.md-search__form { border-radius: 20px; }
+.md-typeset h1 { color: var(--club-ink); }
+.md-typeset a:not(.md-button):hover { text-decoration: underline; }
+.md-typeset .md-button {
+  border-radius: 20px;
+  font-weight: 700;
+  border-color: var(--club-action);
+}
+.md-typeset .md-button--primary {
+  background: var(--club-gold);
+  border-color: var(--club-gold);
+  color: #25200B;
+}
+.md-typeset .md-button--primary:hover {
+  background: #D9A91F;
+  border-color: #D9A91F;
+  color: #25200B;
+}
+.md-typeset .admonition, .md-typeset details, .md-typeset table:not([class]) {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.md-typeset .admonition, .md-typeset details { background: var(--club-surface); }
+.md-typeset table:not([class]) { background: var(--club-surface); }
+.md-typeset table:not([class]) th { background: var(--club-action); color: var(--club-surface); }
+.md-typeset :focus-visible, .md-header :focus-visible, .md-nav :focus-visible,
+.md-tabs :focus-visible { outline: 3px solid var(--club-gold); outline-offset: 3px; }
+@media (max-width: 76.234375em) {
+  .md-tabs { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}
