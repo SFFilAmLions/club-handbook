@@ -7,6 +7,9 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: overrides
+  font:
+    text: Alata
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -16,9 +19,19 @@ theme:
     - search.highlight
     - content.action.edit
   palette:
-    - scheme: default
-      primary: red
-      accent: amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/club-brand.css
 
 extra:
   handbook_version: !ENV [HANDBOOK_VERSION, '1.0.0']
