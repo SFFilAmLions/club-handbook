@@ -8,6 +8,7 @@ This handbook contains the club's currently documented operating procedures.
 - [Treasurer](treasurer/index.md) — Zoho Invoice, dues, payments, reimbursements, bank statements, and check-register review.
 - [Secretary](secretary/index.md) — meeting agendas and minutes.
 - [Marketing](marketing/index.md) — club website and YouTube work.
+- [Service Chair](service-chair/index.md) — service activity coordination, volunteer participation, and Lions Portal reporting.
 
 ## AI Transparency and Usage
 

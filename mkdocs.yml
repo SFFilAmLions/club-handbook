@@ -76,3 +76,5 @@ nav:
       - Overview: marketing/index.md
       - Website: marketing/website.md
       - YouTube Meeting Recordings: marketing/youtube.md
+  - Service Chair:
+      - Overview: service-chair/index.md
