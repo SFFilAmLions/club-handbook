@@ -22,16 +22,21 @@ flowchart TD
     K --> L["Verify recipients, attachments<br/>and Draft status"]
     L --> M["Await separate authorization<br/>Do not send draft or pay"]
     M --> N["Issue reimbursement check<br/>only after authorization"]
-    N --> O["Record refund and check reference<br/>in Zoho and check register"]
-    O --> P["✉ Issued-check notice draft (reply)<br/>Existing sent credit-note thread"]
-    P --> Q["Verify recipient, check details<br/>and Draft status"]
-    Q --> R["Await separate authorization<br/>Do not send draft"]
-    R --> S["Verify bank posting<br/>and complete reconciliation"]
+    N --> O["Record refund in Zoho<br/>Verify balance and status"]
+    O --> P["Record check reference in Check Register<br/>Issued but not posted; Date Posted blank"]
+    P --> Q["✉ Issued-check notice draft (reply)<br/>Existing sent credit-note thread"]
+    Q --> R["Verify recipient, check details<br/>and Draft status"]
+    R --> S["Await separate authorization<br/>Do not send draft"]
+    S --> T["Verify bank posting<br/>and complete reconciliation"]
     classDef email fill:#e6f1ff,stroke:#2463a6,stroke-width:2px,color:#15375b
-    class K,P email
+    classDef zoho fill:#e9f7ef,stroke:#2d7a46,stroke-width:2px,color:#174a29
+    classDef register fill:#fff4dd,stroke:#a96900,stroke-width:2px,color:#663d00
+    class F,G,J,O zoho
+    class P register
+    class K,Q email
 ```
 
-**Blue envelope boxes represent email drafts.** The reimbursement review request and issued-check notice are replies in the same sent credit-note thread; preserve the thread subject and do not compose a new message for either follow-up.
+**Blue envelope boxes represent email drafts.** **Green boxes represent Zoho Invoice operations.** **Gold boxes represent Check Register operations.** The reimbursement review request and issued-check notice are replies in the same sent credit-note thread; preserve the thread subject and do not compose a new message for either follow-up.
 
 ## Reconcile reimbursement evidence
 
