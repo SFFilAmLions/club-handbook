@@ -33,6 +33,9 @@ theme:
 extra_css:
   - stylesheets/club-brand.css
 
+extra_javascript:
+  - javascripts/diagram-zoom.js
+
 extra:
   handbook_version: !ENV [HANDBOOK_VERSION, '1.0.0']
 
@@ -62,7 +65,8 @@ nav:
   - Treasurer:
       - Overview: treasurer/index.md
       - Operating Controls: treasurer/operations.md
-      - Invoices and Dues Reports: treasurer/invoices-and-dues.md
+      - Invoices: treasurer/invoices-and-dues.md
+      - Monthly Dues Summary: treasurer/dues-summary.md
       - Payments and Forwarding: treasurer/payments-and-forwarding.md
       - Reimbursements: treasurer/reimbursements.md
       - Quarterly Check Register Review: treasurer/quarterly-review.md

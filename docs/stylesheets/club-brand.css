@@ -94,3 +94,65 @@ body, button, input, .md-typeset, .md-nav {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
 }
+
+.diagram-expand {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  margin: .25rem 0 1rem;
+  padding: .45rem .75rem;
+  border: 1px solid var(--club-action);
+  border-radius: 999px;
+  background: var(--club-surface);
+  color: var(--club-action);
+  cursor: pointer;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 700;
+}
+.diagram-expand:hover { background: var(--club-gold); color: #25200B; }
+.diagram-zoom-dialog {
+  width: min(96vw, 96rem);
+  height: min(92vh, 60rem);
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--club-line);
+  border-radius: 16px;
+  background: var(--club-surface);
+  color: var(--club-ink);
+  box-shadow: 0 1.5rem 4rem #0008;
+}
+.diagram-zoom-dialog::backdrop { background: #000a; }
+.diagram-zoom-toolbar {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem .8rem;
+  border-bottom: 1px solid var(--club-line);
+}
+.diagram-zoom-toolbar strong { margin-right: auto; font-size: .9rem; }
+.diagram-zoom-toolbar button {
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  border: 1px solid var(--club-line);
+  border-radius: 8px;
+  background: var(--club-canvas);
+  color: var(--club-ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+.diagram-zoom-toolbar button:hover { border-color: var(--club-action); color: var(--club-action); }
+.diagram-zoom-canvas {
+  height: calc(100% - 3.7rem);
+  overflow: hidden;
+  background: var(--club-canvas);
+  touch-action: none;
+}
+.diagram-zoom-canvas svg { display: block; width: 100%; height: 100%; cursor: grab; }
+.diagram-zoom-canvas svg:active { cursor: grabbing; }
+@media (max-width: 44em) {
+  .diagram-zoom-dialog { width: 100vw; height: 100vh; border-radius: 0; }
+}

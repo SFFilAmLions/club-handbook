@@ -20,7 +20,13 @@ flowchart TD
     K --> J
     J -->|Yes| L["Update check register<br/>Preserve Zoho IDs and allocation suffixes"]
     L --> M["Reconcile source, drafts and forwarding check"]
+    classDef zoho fill:#e9f7ef,stroke:#2d7a46,stroke-width:2px,color:#174a29
+    classDef register fill:#fff4dd,stroke:#a96900,stroke-width:2px,color:#663d00
+    class E zoho
+    class L register
 ```
+
+**Green boxes represent Zoho Invoice operations.** **Gold boxes represent Check Register operations.**
 
 ## Reconcile an electronic payment
 
@@ -28,6 +34,17 @@ flowchart TD
 2. Match each person in the memo to an approved invoice and allocation. The allocation total must exactly equal the source payment.
 3. If any name or remainder is unresolved, process only a separately complete and unambiguous batch.
 4. Keep confirmation details in payment notes, not in a forwarding-check reference.
+
+## Verify mobile check deposits
+
+Use this procedure to determine whether checks deposited through the bank's mobile-deposit service have posted to the club account. A posted deposit is not proof that a deposited check cannot later be returned.
+
+1. On the official online-banking site, select the exact club account and inspect the transaction activity. The authorized user must complete any password, MFA, or security challenge.
+2. Treat a deposit as posted only when the bank labels the transaction as **Posted**. Record the bank-posted date, description, and amount; separately note any pending transaction, hold, or float.
+3. Match each posted deposit to its source record using the available check number, payer, amount, and upload or deposit date. Do not infer a match from a shared amount alone.
+4. If the bank does not expose a unique check-level identifier, retain the source evidence and report the deposit as amount-and-date matched; do not represent it as uniquely identified.
+5. If an item is pending, held, missing, reversed, or cannot be matched unambiguously, leave the related accounting and register records unchanged and list it as unresolved.
+6. After a complete match, update only the existing register fields that document the posted deposit, preserve the Zoho payment identifier and check reference, and re-read the source, register, and bank activity to verify the result.
 
 ## Create draft payment allocations
 
@@ -55,4 +72,3 @@ flowchart TD
 3. Re-read the edited records and verify that excluded or unallocated rows remain unchanged.
 4. Once the final reference is available, replace only the pending forwarding reference while preserving allocation suffixes and accounting-system identifiers.
 5. Verify final register entries against the source payment, forwarding check, and Zoho drafts.
-

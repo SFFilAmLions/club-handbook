@@ -1,5 +1,26 @@
 # Quarterly check-register review
 
+## Quarterly review lifecycle at a glance
+
+```mermaid
+flowchart TD
+    A["Confirm Lions Year quarter<br/>and inclusive date range"] --> B["Collect and verify final statements<br/>for every represented club account"]
+    B --> C["Reconcile Check Register<br/>opening balance, activity, and ending balance"]
+    C --> D{"Statements and register<br/>fully reconciled?"}
+    D -->|No| E["Resolve missing statements, unmatched activity,<br/>balance differences, or unrepresented accounts"]
+    E --> C
+    D -->|Yes| F["Prepare verified review attachments<br/>Register PDF and in-scope statements"]
+    F --> G["✉ Review-request draft<br/>New email or reply in existing approval thread"]
+    G --> H["Verify sender, recipients, Treasurer CC,<br/>period, links, attachments, and Draft status"]
+    H --> I["Await separate authorization<br/>Do not send draft"]
+    classDef email fill:#e6f1ff,stroke:#2463a6,stroke-width:2px,color:#15375b
+    classDef register fill:#fff4dd,stroke:#a96900,stroke-width:2px,color:#663d00
+    class C register
+    class G email
+```
+
+**Blue envelope boxes represent email drafts.** **Gold boxes represent Check Register operations.** The review request is a new draft unless an existing approval thread has been identified; in that case, reply in the identified thread.
+
 ## Collect statements
 
 1. Use the official online banking site. The authorized user must complete any password, MFA, or security challenge; do not enter, store, or bypass credentials.
@@ -21,4 +42,3 @@
 4. Use the approved club-logo/Courier template. State the review period, register tab, PDF filename, attached-statement count, and each statement's period and filename.
 5. Request a reply within one week with approval or a request for additional information.
 6. Re-read the draft and verify sender, recipients, Treasurer CC, period, live-link URL, body, attachment names, and Draft status. Do not create a Zoho action-log row.
-

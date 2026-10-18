@@ -79,6 +79,35 @@ For any questions, please contact:
 {Club Website}
 ```
 
+## Reimbursement check issued notice
+
+Use only after the reimbursement check has been issued and the corresponding Zoho credit-note refund and check-register entry have been verified. Create an unsent draft only when authorized. Use the reply action in the existing sent credit-note thread and preserve its subject; do not compose a new message. Do not state or imply that the check has been delivered, posted, cleared, or finally settled.
+
+```markdown
+San Francisco Fil-Am Lions Club
+Office of the Treasurer
+
+# REIMBURSEMENT CHECK ISSUED
+
+Member          {Member Name}
+Credit No       CRD-XXX
+Credit Ref      {Reference}
+Check No        {Check Reference}
+Check Date      {YYYY-MM-DD}
+**REFUND AMOUNT    ${Amount}**
+
+Dear {Member Name},
+
+Your reimbursement check listed above has been issued. The check remains subject to bank processing. We will update our records after the bank posts it.
+
+For any questions, please contact:
+
+{Club Treasurer}
+{Treasurer Email Address}
+{Club Treasurer's Phone Number}
+{Club Website}
+```
+
 ## Dues-summary request
 
 Use the approved subject format:

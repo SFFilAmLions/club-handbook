@@ -18,10 +18,25 @@ flowchart TD
     G --> H["Record action log and evidence"]
     H --> I["Prepare open credit notes for review<br/>Match receipt bundle to each line"]
     I --> J["Send credit note via Zoho<br/>only when separately authorized"]
-    J --> K["Draft review-request reply<br/>Attach credit note and verified receipts"]
+    J --> K["✉ Review-request draft (reply)<br/>Sent credit-note thread<br/>Attach credit note and verified receipts"]
     K --> L["Verify recipients, attachments<br/>and Draft status"]
     L --> M["Await separate authorization<br/>Do not send draft or pay"]
+    M --> N["Issue reimbursement check<br/>only after authorization"]
+    N --> O["Record refund in Zoho<br/>Verify balance and status"]
+    O --> P["Record check reference in Check Register<br/>Issued but not posted; Date Posted blank"]
+    P --> Q["✉ Issued-check notice draft (reply)<br/>Existing sent credit-note thread"]
+    Q --> R["Verify recipient, check details<br/>and Draft status"]
+    R --> S["Await separate authorization<br/>Do not send draft"]
+    S --> T["Verify bank posting<br/>and complete reconciliation"]
+    classDef email fill:#e6f1ff,stroke:#2463a6,stroke-width:2px,color:#15375b
+    classDef zoho fill:#e9f7ef,stroke:#2d7a46,stroke-width:2px,color:#174a29
+    classDef register fill:#fff4dd,stroke:#a96900,stroke-width:2px,color:#663d00
+    class F,G,J,O zoho
+    class P register
+    class K,Q email
 ```
+
+**Blue envelope boxes represent email drafts.** **Green boxes represent Zoho Invoice operations.** **Gold boxes represent Check Register operations.** The reimbursement review request and issued-check notice are replies in the same sent credit-note thread; preserve the thread subject and do not compose a new message for either follow-up.
 
 ## Reconcile reimbursement evidence
 
@@ -60,3 +75,13 @@ flowchart TD
 4. Verify the thread, sender, recipients, Treasurer CC, body, attachment filenames, and Draft status.
 5. Do not send the draft or pay the reimbursement without separate authorization.
 
+## Record an issued reimbursement check
+
+Use this procedure after a separately authorized reimbursement check has actually been issued. Issuance is not bank posting or final settlement.
+
+1. Confirm the issued check's payee, amount, date, and check reference against the exact Open Zoho credit note. For a multi-line credit note, reconcile the complete line allocation; do not infer a partial or combined payment.
+2. In Zoho, record the refund against that credit note using the confirmed payment date, mode, amount, and check reference. Do not apply the credit to an invoice. Verify the resulting credit-note balance and status.
+3. In `{Check Register}`, preserve the credit-note identifier and any allocation suffixes, enter the confirmed check reference, and leave the bank-posted date blank until the bank marks the check as posted. Move the row to the issued-but-not-posted section.
+4. If an issued-check notice is authorized, create an unsent Gmail reply draft in the existing sent credit-note thread to the verified reimbursement recipient using the [Reimbursement check issued notice template](email-templates.md#reimbursement-check-issued-notice). Preserve the thread subject. Verify the thread, sender, recipient, subject, check reference, payment date, amount, body, and Draft status. Do not send the draft without separate authorization.
+5. Append an action-log entry for the Zoho refund and register update, including the credit-note identifier, amount, payment date, check reference, resulting status, whether a bank-posted date remains outstanding, and whether an email draft was created or sent.
+6. After the bank posts the check, update only the register's posted-date field and verify the credit note, register, and bank activity still agree. Investigate any return, stop payment, reversal, or amount mismatch before making further changes.

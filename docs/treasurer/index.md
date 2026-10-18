@@ -5,7 +5,8 @@ The Treasurer procedures govern invoices, payments, reimbursements, dues reports
 ## Current documented areas
 
 - [Operating Controls](operations.md) — controls and verification requirements to follow before carrying out Treasurer actions.
-- [Invoices and Dues Reports](invoices-and-dues.md) — preparing invoices and reporting member dues balances.
+- [Invoices](invoices-and-dues.md) — preparing and correcting member invoices.
+- [Monthly Dues Summary](dues-summary.md) — exporting the monthly dues report and preparing its officer email draft.
 - [Payments and Forwarding](payments-and-forwarding.md) — reconciling electronic payments, allocating them, and forwarding funds.
 - [Reimbursements](reimbursements.md) — documenting and processing member reimbursements.
 - [Quarterly Check Register Review](quarterly-review.md) — preparing the quarterly register and supporting records for review.
