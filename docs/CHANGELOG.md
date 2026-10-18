@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.2.0](https://github.com/SFFilAmLions/club-handbook/compare/v1.1.0...v1.2.0) (2026-10-18)
+
+
+### Features
+
+* add Service Chair handbook section ([#11](https://github.com/SFFilAmLions/club-handbook/issues/11)) ([527dda3](https://github.com/SFFilAmLions/club-handbook/commit/527dda320500643a565a76793d8210d03fe17fd9))
+* **docs:** add expandable Mermaid diagrams ([7e8a6ca](https://github.com/SFFilAmLions/club-handbook/commit/7e8a6caa1ab612757e6a82bb5d54081be16f99d8))
+
+
+### Documentation
+
+* add President club-meeting-procedure.md ([259a7a8](https://github.com/SFFilAmLions/club-handbook/commit/259a7a8fdbc5cdda12c9d173e5827a5b73df8306))
+* add President index.md ([3fca294](https://github.com/SFFilAmLions/club-handbook/commit/3fca2943174a2e393608dc37bc902a0e8b7c3805))
+* add President meeting procedure and presiding script ([3416290](https://github.com/SFFilAmLions/club-handbook/commit/3416290f28337683c1df8e068fa03da459a89e65))
+* add President meeting-guidance.md ([f035fa4](https://github.com/SFFilAmLions/club-handbook/commit/f035fa4b82205c165cb918ceb069e512ec133699))
+* add President role and meeting pages to navigation ([e2f8594](https://github.com/SFFilAmLions/club-handbook/commit/e2f859478867d459ac45191197e4f98397420f1b))
+* list President role on handbook homepage ([c4b45c9](https://github.com/SFFilAmLions/club-handbook/commit/c4b45c91eaf9512053022c314c537b2a30cac170))
+* **treasurer:** add issued reimbursement check notice ([788baa4](https://github.com/SFFilAmLions/club-handbook/commit/788baa44490fc9920c425a25c62783ce408832ea))
+* **treasurer:** add quarterly review lifecycle chart ([3c88ecc](https://github.com/SFFilAmLions/club-handbook/commit/3c88eccafbb48f27b93c5c42afe0909c32bb9cc7))
+* **treasurer:** document deposit and check posting procedures ([c538422](https://github.com/SFFilAmLions/club-handbook/commit/c5384223551af413ed22f82c684a21b1bb958ef1))
+* **treasurer:** document deposit and check posting procedures ([44bae42](https://github.com/SFFilAmLions/club-handbook/commit/44bae424262ab7f38dab869c582d3c6471562ad9))
+* **treasurer:** keep reimbursement notices in credit thread ([8391041](https://github.com/SFFilAmLions/club-handbook/commit/8391041c3133da99295bdaa1bc75c0f980a037b0))
+* **treasurer:** separate monthly dues summary workflow ([a1f5b8a](https://github.com/SFFilAmLions/club-handbook/commit/a1f5b8aa773bbaa7dd88f4a7d81d4c4e644ab3ae))
+* **treasurer:** style forwarding lifecycle operations ([54d03bd](https://github.com/SFFilAmLions/club-handbook/commit/54d03bd0a475d7908fa93bb87343f6e5bc4d6f95))
+* **treasurer:** style reimbursement lifecycle operations ([c544605](https://github.com/SFFilAmLions/club-handbook/commit/c544605c501dd3895566691d14d07f5d55ee3d58))
+
 ## [1.1.0](https://github.com/SFFilAmLions/club-handbook/compare/v1.0.0...v1.1.0) (2026-10-10)
 
 
