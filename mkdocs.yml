@@ -62,7 +62,8 @@ nav:
   - Treasurer:
       - Overview: treasurer/index.md
       - Operating Controls: treasurer/operations.md
-      - Invoices and Dues Reports: treasurer/invoices-and-dues.md
+      - Invoices: treasurer/invoices-and-dues.md
+      - Monthly Dues Summary: treasurer/dues-summary.md
       - Payments and Forwarding: treasurer/payments-and-forwarding.md
       - Reimbursements: treasurer/reimbursements.md
       - Quarterly Check Register Review: treasurer/quarterly-review.md
