@@ -20,7 +20,13 @@ flowchart TD
     K --> J
     J -->|Yes| L["Update check register<br/>Preserve Zoho IDs and allocation suffixes"]
     L --> M["Reconcile source, drafts and forwarding check"]
+    classDef zoho fill:#e9f7ef,stroke:#2d7a46,stroke-width:2px,color:#174a29
+    classDef register fill:#fff4dd,stroke:#a96900,stroke-width:2px,color:#663d00
+    class E zoho
+    class L register
 ```
+
+**Green boxes represent Zoho Invoice operations.** **Gold boxes represent Check Register operations.**
 
 ## Reconcile an electronic payment
 
