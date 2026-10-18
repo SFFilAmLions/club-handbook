@@ -81,13 +81,7 @@ For any questions, please contact:
 
 ## Reimbursement check issued notice
 
-Use only after the reimbursement check has been issued and the corresponding Zoho credit-note refund and check-register entry have been verified. Create an unsent draft only when authorized. Do not state or imply that the check has been delivered, posted, cleared, or finally settled.
-
-Use the approved subject format:
-
-```text
-SF Fil-Am LC Treasurer - Reimbursement Check Issued - CRD-XXX
-```
+Use only after the reimbursement check has been issued and the corresponding Zoho credit-note refund and check-register entry have been verified. Create an unsent draft only when authorized. Use the reply action in the existing sent credit-note thread and preserve its subject; do not compose a new message. Do not state or imply that the check has been delivered, posted, cleared, or finally settled.
 
 ```markdown
 San Francisco Fil-Am Lions Club
