@@ -8,6 +8,10 @@ These are the public operating controls for the Treasurer role. Internal working
 - The current-year invoice-plan spreadsheet, `Lions Payments`, and `SF Fil-Am Lions Check Register` are the operational records for their respective workflows.
 - The current-year action log records every completed Zoho change.
 
+## Check Register row placement
+
+Treat the labeled Check Register sections as status queues. When a new row belongs in **Issued but not posted**, append it at the bottom of that section, immediately before the next section marker. Do not insert it at the top or reorder existing rows. Preserve the row's identifiers, references, and formulas when moving it between sections.
+
 ## Non-negotiable controls
 
 - Treat the source records as authoritative. Do not infer unresolved names, amounts, allocations, or batch membership.
@@ -32,7 +36,8 @@ These are the public operating controls for the Treasurer role. Internal working
 3. If any portion is unresolved, process only a separate complete batch; do not force the remainder onto an invoice.
 4. Create every allocation as a Zoho draft payment. Use a traceable internal reference pattern such as `Z#XXX`, `C#XXX`, or `C#PENDING X` as appropriate to the payment method and posting state.
 5. After Zoho assigns payment identifiers, update the notes and check-register records with the final traceability references.
-6. Verify each payment's customer, amount, date, payment mode, allocation, reference, notes, and Draft status before reporting completion.
+6. When the payment is represented in the **Issued but not posted** section, append its register row at the bottom of that section. Leave the bank-posted date blank until independently verified.
+7. Verify each payment's customer, amount, date, payment mode, allocation, reference, notes, and Draft status before reporting completion.
 
 ## Electronic-payment forwarding and reconciliation
 
