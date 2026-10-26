@@ -44,7 +44,22 @@ Use this procedure to determine whether checks deposited through the bank's mobi
 3. Match each posted deposit to its source record using the available check number, payer, amount, and upload or deposit date. Do not infer a match from a shared amount alone.
 4. If the bank does not expose a unique check-level identifier, retain the source evidence and report the deposit as amount-and-date matched; do not represent it as uniquely identified.
 5. If an item is pending, held, missing, reversed, or cannot be matched unambiguously, leave the related accounting and register records unchanged and list it as unresolved.
-6. After a complete match, update only the existing register fields that document the posted deposit, preserve the Zoho payment identifier and check reference, and re-read the source, register, and bank activity to verify the result.
+6. After a complete match, update only the existing register fields that document the posted deposit, preserve the Zoho payment identifier and check reference, and move the row from the issued-but-not-posted section into the posted section above its marker. Re-read the source, register, and bank activity to verify the result.
+
+## Online-payment tracker statuses
+
+Use the source-row status to show the payment's evidence-backed lifecycle. Do not advance a row merely because an expected date has passed.
+
+| Status | Required evidence |
+| --- | --- |
+| **Received — Awaiting Allocation** | The service payment is recorded, but its club allocation is not complete. |
+| **Ready to Forward** | A complete, reconciled allocation is ready for the approved forwarding workflow. |
+| **Check Scheduled** | The forwarding check is scheduled and its delivery date is recorded. |
+| **Check Delivered** | The provider has supplied the final check reference and the forwarding entry has been verified. |
+| **Club Reconciled** | The check has been mobile deposited, the matching deposit is marked Posted by the club bank, and the check-register row has a posted date. |
+| **Not Club Funds** | Evidence shows the payment is not club money; do not include it in club-funds totals or forwarding. |
+
+Move a row from **Check Delivered** to **Club Reconciled** only after all three posted-deposit conditions are verified. A mobile-deposit upload, a pending deposit, or a delivered check alone is insufficient.
 
 ## Create draft payment allocations
 
@@ -72,3 +87,4 @@ Use this procedure to determine whether checks deposited through the bank's mobi
 3. Re-read the edited records and verify that excluded or unallocated rows remain unchanged.
 4. Once the final reference is available, replace only the pending forwarding reference while preserving allocation suffixes and accounting-system identifiers.
 5. Verify final register entries against the source payment, forwarding check, and Zoho drafts.
+6. When the club-bank deposit is independently verified as posted, record the register posted date and move the matching source row from **Check Delivered** to **Club Reconciled**.
