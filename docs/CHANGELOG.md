@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.1](https://github.com/SFFilAmLions/club-handbook/compare/v1.2.0...v1.2.1) (2026-10-26)
+
+
+### Documentation
+
+* **treasurer:** append issued checks to register section ([8f875ac](https://github.com/SFFilAmLions/club-handbook/commit/8f875acd0a9a98e8f0be54f51aadb993d7043dc6))
+* **treasurer:** clarify posted payment reconciliation ([c6a00ac](https://github.com/SFFilAmLions/club-handbook/commit/c6a00ac2ffa84a8be4a21acd66beb69b67f235a9))
+* **treasurer:** require copied officer roles on issued checks ([5a4db53](https://github.com/SFFilAmLions/club-handbook/commit/5a4db53123f718c3d2dfd5698ca8acc61a51b2e9))
+* **treasurer:** require copied officer roles on issued checks ([9d93249](https://github.com/SFFilAmLions/club-handbook/commit/9d93249940b36992ecad1b91a6cdf32bec7d5016))
+
 ## [1.2.0](https://github.com/SFFilAmLions/club-handbook/compare/v1.1.0...v1.2.0) (2026-10-18)
 
 
